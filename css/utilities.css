@@ -5,10 +5,36 @@
 }
 
 
-/* colors */
+/* margins */
 
-.primary-text-color {
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+
+/* padding */
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+
+/* text colors */
+
+.text-primary {
     color: var(--dark);
+}
+
+.text-secondary {
+    color: var(--orange);
 }
 
 
@@ -19,13 +45,11 @@
 }
 
 .btn-primary {
-    font-size: 12px;
     border: none;
     background-color: var(--orange);
     color: var(--white);
-    padding: 10px 10px !important;
+    padding: 10px 15px !important;
     border-radius: 5px;
-    margin-left: 15px;
 }
 
 .btn-primary:hover {

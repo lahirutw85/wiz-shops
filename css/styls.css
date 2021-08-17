@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600&display=swap');
 :root {
     --orange: #ea5b29;
     --dark: #343e47;
@@ -54,11 +54,25 @@ ul {
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 15px;
 }
 
 .navbar a:hover {
     color: var(--orange);
     transition: var(--tans01);
+}
+
+
+/* hero */
+
+.hero-content {
+    padding-top: 200px;
+    padding-left: 300px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
