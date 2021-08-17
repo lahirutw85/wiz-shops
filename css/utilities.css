@@ -1,0 +1,34 @@
+:root {
+    --orange: #ea5b29;
+    --dark: #343e47;
+    --background: #D1D1D1;
+}
+
+
+/* colors */
+
+.primary-text-color {
+    color: var(--dark);
+}
+
+
+/* buttons */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-primary {
+    font-size: 12px;
+    border: none;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark);
+    transition: all 500ms ease-in-out;
+}
