@@ -4,6 +4,7 @@
     --dark: #343e47;
     --background: #d1d1d1;
     --white: #fff;
+    --tans01: all 500ms ease-in-out;
 }
 
 * {
@@ -47,10 +48,17 @@ ul {
     cursor: pointer;
 }
 
+.navbar #chat-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
 .navbar a {
+    font-size: 18px;
     padding: 0 15px;
 }
 
 .navbar a:hover {
     color: var(--orange);
+    transition: var(--tans01);
 }

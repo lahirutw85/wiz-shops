@@ -16,7 +16,6 @@
 
 .btn {
     cursor: pointer;
-    display: inline-block;
 }
 
 .btn-primary {
@@ -24,8 +23,9 @@
     border: none;
     background-color: var(--orange);
     color: var(--white);
-    padding: 10px 30px;
+    padding: 10px 10px !important;
     border-radius: 5px;
+    margin-left: 15px;
 }
 
 .btn-primary:hover {
