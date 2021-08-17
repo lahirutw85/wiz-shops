@@ -2,6 +2,8 @@
     --orange: #ea5b29;
     --dark: #343e47;
     --background: #d1d1d1;
+    --white: #fff;
+    --tans01: all 500ms ease-in-out;
 }
 
 
@@ -54,7 +56,8 @@
 
 .btn-primary:hover {
     background-color: var(--dark);
-    transition: all 500ms ease-in-out;
+    color: #fff !important;
+    transition: var(--tans01);
 }
 
 
